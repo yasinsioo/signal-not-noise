@@ -1,0 +1,12 @@
+{
+  "name": "signal-not-noise",
+  "private": true,
+  "packageManager": "pnpm@10",
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "dev:api": "pnpm --filter api dev",
+    "dev": "pnpm -r --parallel dev",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck"
+  }
+}

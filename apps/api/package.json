@@ -1,0 +1,19 @@
+{
+  "name": "api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/local.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "echo \"skip lint for now\""
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.19.7",
+    "hono": "^4.10.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.26",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
