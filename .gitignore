@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+.turbo/
+
+# Environment variables (NEVER commit these!)
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.code-workspace
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Lambda / AWS specific
+.aws-sam/
+sam-tests/
+*.zip
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Testing
+.coverage/
+coverage/
+.nyc_output/
+
+# Misc
+.cache/
+.tmp/
+tmp/
+temp/
+*.bak
+
+instructions.md
